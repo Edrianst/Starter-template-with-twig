@@ -1,0 +1,6 @@
+*-lock.*
+node_modules/
+bootstrap
+*.DS_Store
+dist/
+.idea/

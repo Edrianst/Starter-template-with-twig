@@ -1,0 +1,25 @@
+.section {
+    width: 100%;
+    padding: rem(50px) 0;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.btn {
+    display: block;
+    cursor: pointer;
+    margin: 0 auto;
+    background-color: orange;
+    color: #fff;
+    max-width: 200px;
+}
+
+.section__title {
+    text-align: center;
+    width: 100%;
+}
