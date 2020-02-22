@@ -81,7 +81,7 @@ gulp.task('twig', function () {
         .pipe(reload({
             stream: true
         }))
-})
+});
 
 gulp.task('images', function () {
     return gulp.src(paths.dev + 'img/**/*.*')
@@ -97,9 +97,6 @@ gulp.task('images', function () {
                 ]
             }),
             imagemin.gifsicle(),
-            imagemin.jpegtran({
-                progressive: true
-            }),
             imagemin.optipng({
                 optimizationlevel: 3
             })
